@@ -19,4 +19,4 @@ RUN chkconfig tomcat on
 
 EXPOSE 8080
 
-CMD /etc/init.d/tomcat start && tail -f /var/log/tomcat/catalina.out
+CMD /etc/init.d/tomcat start && tail -f /dev/null
